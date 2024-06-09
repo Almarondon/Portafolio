@@ -1,0 +1,78 @@
+.nombre {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.nombre h1 {
+  text-shadow: #ccc 1px 0 10px;
+}
+
+section div h2 {
+  font-style: italic;
+  font-size: 50px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+section div h2:hover {
+  color: rgb(86, 83, 83);
+}
+.background {
+  background-image: url("../image/p2.png");
+  height: 100vh;
+}
+
+.red-social {
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+/*---------- Portafolio ---------*/
+
+.portfolio {
+  padding-top: 9rem;
+}
+
+.background h1 {
+  font-size: 4.2rem;
+  color: white;
+  text-shadow: #ccc 1px 0 10px;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  padding-top: 70%;
+}
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.estudios h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.habilidades h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Hero Section
+
+#Hero-Section {
+  background-image: url("../image/alma\ foto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 600px;
+} */
